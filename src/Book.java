@@ -15,6 +15,7 @@ public class Book {
         return "Book{" +
                 "title='" + title + '\'' +
                 ", page=" + page +
+                ", year=" + year +
                 '}';
     }
 
@@ -22,7 +23,14 @@ public class Book {
         return title;
     }
 
+    public void setYear(int year) {
+        this.year = year;
+    }
+
     public int getPage() {
         return page;
     }
+
+
+
 }
